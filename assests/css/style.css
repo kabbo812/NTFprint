@@ -1,0 +1,461 @@
+/* Google Fonts Links */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Default CSS */
+*{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+body{
+    background: #000000;
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+}
+img{
+    max-width: 100%;
+}
+span{
+    color: #07E286;
+}
+.section-padding{
+    padding: 10rem 0;
+}
+.padding-bottom{
+    padding-bottom: 10rem;
+}
+/* ************************ */
+ /** HEADER AREA CSS START */
+/* ********************** */
+.header-top {
+	padding: 5rem 0;
+	position: relative;
+}
+.header-logo img {
+	height: 40px;
+	width: auto;
+}
+.header-logo p {
+	margin-top: 1rem;
+}
+.header-menu {
+	display: flex;
+	justify-content: flex-end;
+}
+.header-menu ul {
+	list-style: none;
+}
+.header-menu ul li a {
+	text-decoration: navajowhite;
+	color: #FFF;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0 20px;
+}
+.header-menu ul li a:hover,
+.header-menu ul li.active a{
+    color: #07E286;
+}
+.mobile-menu {
+	display: none;
+}
+.mobile-menu a i {
+	font-size: 3rem;
+	border: 1px solid #FFF;
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: .5rem;
+	text-align: center;
+	line-height: 4.5rem;
+}
+/* Banner Area CSS start */
+.banner-area{
+    position: relative;
+    z-index: 99;
+}
+.banner-content {
+	max-width: 75rem;
+	margin: 0 auto;
+	text-align: center;
+    padding: 5rem 0;
+}
+.banner-content > form{
+    position: relative;
+}
+.reset-btn {
+	position: absolute;
+	background: none;
+	border: none;
+	font-size: 2rem;
+	top: 7%;
+	right: 1%;
+	color: #ddd;
+}
+.banner-content h2 {
+	font-size: 48px;
+    margin-bottom: 2rem;
+}
+.banner-content h2 span {
+	font-size: 48px;
+}
+.banner-content form input {
+	width: 100%;
+	height: 5.5rem;
+	padding: 10px;
+	outline: none;
+	border: none;
+	background: #272835;
+	border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+.banner-content p > a {
+	font-style: italic;
+	text-decoration: navajowhite;
+}
+.btn-1 {
+    margin-top: 1rem;
+	border: navajowhite;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 16px 30px;
+	background: #07E286;
+	display: inline-block;
+	border-radius: 5px;
+    transition: 0.5s;
+	color: #000000;
+}
+.btn-1 i {
+	background: none;
+	color: #000;
+	margin-left: 7px;
+	transform: rotate(-45deg);
+	font-size: 2rem;
+}
+.left-banner-shape {
+	position: absolute;
+	left: 0;
+	top: 150px;
+}
+.right-banner-shape {
+	position: absolute;
+	right: 0;
+	top: 150px;
+    z-index: 1;
+}
+.left-banner-shape img{
+    width: 400px;
+}
+.right-banner-shape img{
+    width: 300px;
+}
+/* ************************ */
+ /** HEADER AREA CSS START */
+/* ********************** */
+
+/* ************************ */
+ /** POPULAR AREA CSS START */
+/* ********************** */
+.popular-area {
+	position: relative;
+	z-index: 99;
+	padding-bottom: 5rem;
+	border-bottom: 1px solid #4C4C50;
+}
+.title {
+	font-size: 3.2rem;
+	margin-bottom: 4rem;
+    text-transform: capitalize;
+}
+.single-popular-content {
+	padding: 2rem;
+	background: #24242C;
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+.single-popular-content h4 {
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 1rem;
+}
+.popular-btn {
+	text-decoration: navajowhite;
+	width: 100%;
+	text-align: center;
+}
+.owl-prev, .owl-next{
+	position: absolute;
+	right: 170px;
+	top: -75px;
+	width: 30px;
+	height: 30px;
+	background: #07E286 !important;
+	border-radius: 5px;
+}
+.owl-prev i, .owl-next i{
+    font-size: 2rem;
+    color: #000000;
+    line-height: 3rem;
+}
+.owl-next {
+	position: absolute;
+	right: 130px;
+	top: -75px;
+}
+/* ************************ */
+ /** POPULAR AREA CSS END */
+/* ********************** */
+
+/* ************************ */
+ /** PRINT AREA CSS START */
+/* ********************** */
+
+.single-print{
+    background: #24242C;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.single-print-image {
+	display: flex;
+    
+}
+.single-print-image a {
+	flex: 0 0 calc(50% - 20px);
+	max-width: calc(50% - 20px);
+}
+.single-print-image img {
+	height: 150px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 1rem;
+}
+.single-print-image > p {
+	flex: 0 0 50%;
+	max-width: 50%;
+	margin-left: 2rem;
+	box-sizing: border-box;
+}
+.left-print span {
+	font-weight: 700;
+}
+.print-btn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding: 2.5rem 0;
+	border-bottom: 1px solid #4C4C50;
+}
+.btn-3{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 1rem 2rem;
+}
+
+.single-print-title {
+	text-align: center;
+}
+.single-print-title h4 {
+	font-size: 2.4rem;
+	font-weight: 700;
+	padding-top: 2rem;
+}
+/* ************************ */
+ /** PRINT AREA CSS END */
+/* ********************** */
+
+/* ************************ */
+ /** PAY AREA CSS START */
+/* ********************** */
+.pay-area{
+    position: relative;
+}
+.single-pay{
+    position: relative;
+    height: 130px;
+    width: 130px;
+    object-fit: contain;
+}
+.single-pay::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1C1D27;
+    border-radius: 50%;
+    opacity: 0.8;
+    object-fit: cover;
+}
+.single-pay img {
+	height: 100% !important;
+    width: 100% !important;
+	
+}
+.right-pay-image {
+	text-align: left;
+}
+.right-pay-image img {
+	height: 450px;
+	width: auto;
+}
+.pay-shape {
+	position: absolute;
+	left: 0;
+	bottom: -150px;
+	z-index: -1;
+}
+.pay-shape img{
+    width: 400px;
+    height: auto;
+}
+.left-pay-content{
+    position: relative;
+}
+.left-pay-content::after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: -15px;
+	width: 40px;
+	height: 4px;
+	background: #07E286;
+}
+.left-pay-content h1,
+.left-pay-content h1 span {
+	font-size: 5.5rem;
+	font-weight: 700;
+}
+.pay-content .col-md-7, .pay-content .col-md-5{
+	padding: 0 !important;
+}
+.btn-2 {
+	text-decoration: none;
+	margin-top: 3rem;
+}
+/* ************************ */
+ /** PAY AREA CSS END */
+/* ********************** */
+
+/* ************************ */
+ /** FOOTER AREA CSS START */
+/* ********************** */
+.footer-area{
+    background: #1C1C20 !important;
+}
+.footer-logo img {
+	height: 4rem;
+	width: auto;
+}
+.footer-icon{
+    margin: 2rem 0;
+}
+.footer-icon a {
+	margin-right: 2rem;
+}
+.footer-icon a i{
+    font-size: 2rem;
+}
+.midle-footer{
+    padding: 0 2rem;
+}
+.single-footer ul{
+    list-style: none;
+}
+.single-footer ul li a {
+	text-decoration: navajowhite;
+	color: #FFF;
+	margin: 1rem 0;
+	display: inline-block;
+}
+.single-footer ul li a:hover,
+.footer-icon a i:hover{
+    color: #07E286;
+}
+/* ************************ */
+ /** FOOTER AREA CSS END */
+/* ********************** */
+.banner-title h2 {
+	font-size: 42px;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+.form-title h4 {
+	margin-left: 1rem;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.btn-radio {
+	padding: 10px 30px;
+	background: #272835;
+	color: #07E286 !important;
+	border-radius: 7px;
+	margin: 10px;
+	border: none !important;
+	font-size: 1.6rem !important;
+}
+.btn-check:active + .btn-secondary, .btn-check:checked + .btn-secondary, .btn-secondary.active, .btn-secondary:active, .show > .btn-secondary.dropdown-toggle {
+	background: #07E286 !important;
+	color: #000 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+.orn-btn {
+	margin-left: -20px;
+}
+.orn-btn-1{
+	padding: 1.5rem 3.5rem !important;
+}
+#option9 {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	pointer-events: none;
+}
+#option10 {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	pointer-events: none;
+}
+.btn-check-1:active + .btn-secondary, .btn-check-1:checked + .btn-secondary, .btn-secondary.active, .btn-secondary:active, .show > .btn-secondary.dropdown-toggle {
+	background: #07E286 !important;
+	color: #000 !important;
+	box-shadow: none !important;
+	border: none !important;
+}
+
+/* der */
+.single-sescription {
+	margin-bottom: 3rem;
+}
+.single-sescription h3 {
+	font-size: 3.2rem;
+}
+.single-sescription h3,h4 {
+	margin-bottom: 1.5rem;
+}
+.description-con{
+	font-size: 2rem;
+}
+.single-sescription h4 {
+	font-size: 2.4rem;
+}
+.single-sescription p {
+	color: #C4C4C4;
+}
+.descripttion-area{
+	position: relative;
+}
+.description-shape{
+	position: absolute;
+	left: 0;
+	top: -21rem;
+	z-index: -1;
+}
+.description-shape img {
+	height: auto;
+	width: 40rem;
+	object-fit: cover;
+}
